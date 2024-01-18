@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TipyRun</title>
+</head>
+<body>
+    <header>
+        <h1>TypiRun</h1>
+        <div class="text-to-user">
+            <small>Para comenzar la cuenta atrás, empiece a escribir.</small>
+        </div>
+    </header>
+    <main class="text-container" id="text-container">
+        <div class="countdown-container" id="countdown">
+        </div>
+        <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+
+        <div class="background-text" id="background-text">
+
+        </div>
+    </main>
+
+    <section class="hide" id="results">
+        <h1>TUS RESULTADOS</h1>
+        <div class="items-container">
+            <div class="time-elapsed">
+                <small>Test type</small>
+                <p>Test de 35 segundos</p>
+            </div>
+    
+            <div class="wpm-reached" >
+                <small>WPM</small>
+                <h2 id="wpm"></h2>
+            </div>
+    
+            <div class="accuracy-percentaje">
+                <small>Precisión</small>
+                <h2 id="accuracy"></h2>
+            </div>
+
+            <div class="reset-container">
+                <button id="reset"><img src="./image/reset.png" alt=""></button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="text-footer">
+            <p>Hecho por Mariano Arias, todos los derechos reservados ©2024</p>
+        </div>
+
+        <div class="icon-container">
+            <a href="https://www.linkedin.com/in/mariano-arias1/" target="_blank"><img src="./image/logoLinkedin.png" alt=""></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

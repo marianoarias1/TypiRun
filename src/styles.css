@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
+
+body{
+    background-color: rgb(10, 5, 14);
+    font-family: 'Nunito', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1{
+    font-family: 'Nunito', sans-serif;
+    color:#4eaff0;
+}
+
+.text-to-user small{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(75, 75, 75) ;
+}
+
+.text-container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.text-container textarea{
+    width: 600px;
+    height: 250px;
+    background-color: transparent;
+    border: 1px solid #4eaff0;
+    border-radius: 5px;
+    resize: none;
+    color: transparent;
+    font-size: 1.09em;
+    padding: 21px;
+    font-family: 'Nunito', sans-serif;
+    z-index: 1;
+    caret-color: #4eaff0;
+    position: absolute;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.text-container textarea:focus{
+    outline: none;
+}
+
+.countdown-container{
+    width: 600px;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.countdown-container small{
+    
+    font-family: 'Nunito', sans-serif;
+    color: #4eaff0;
+    font-size: 1.1em;
+}
+
+.background-text{
+    position: absolute;
+    width: 596px;
+    height: 283px;
+    padding: 20px;
+}
+
+.background-text  .pass{
+    color: white;
+}
+
+.background-text .fail{
+    color: rgb(175, 38, 38);
+}
+
+.background-text p{
+    width: 90%;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(75, 75, 75) ;
+    font-size: 1.1em;
+    position: absolute;
+}
+
+
+.results-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.results-container h1{
+    color: #4eaff0d7;
+}
+
+.items-container{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #4eaff0;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+.time-elapsed{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-elapsed small{
+    color: rgb(75, 75, 75) ;
+    font-size: .9em;
+}
+
+.time-elapsed p{
+    color: #4eaff0;
+    font-size: 1.1em;
+}
+
+.wpm-reached{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wpm-reached small{
+    color: rgb(75, 75, 75) ;
+    font-size: .9em;
+}
+
+.wpm-reached h2{
+    color: #4eaff0;
+    font-size: 3em;
+}
+
+.accuracy-percentaje{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.accuracy-percentaje small{
+    color: rgb(75, 75, 75) ;
+    font-size: .9em;
+}
+
+.accuracy-percentaje h2{
+    color: #4eaff0;
+    font-size: 3em;
+}
+
+.reset-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset-container button{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #4eaff0;
+    cursor: pointer;
+}
+.reset-container button img{
+    width: 25px;
+    height: 25px;
+}
+
+.hide{
+ display: none;   
+}
+
+.footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer .text-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text-footer p{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(75, 75, 75) ;
+    font-size: 1.1em;
+}
+
+.icon-container a{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.icon-container a img{
+    width: 45px;
+    height: 45px;
+}
