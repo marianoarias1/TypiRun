@@ -24,7 +24,7 @@ header h1{
 
 .text-to-user small{
     font-family: 'Nunito', sans-serif;
-    color: rgb(75, 75, 75) ;
+    color: rgb(75, 75, 75);
 }
 
 .text-container{
@@ -46,7 +46,8 @@ header h1{
     resize: none;
     color: transparent;
     font-size: 1.09em;
-    padding: 21px;
+    padding: 24px;
+    padding-top: 20px;
     font-family: 'Nunito', sans-serif;
     z-index: 1;
     caret-color: #4eaff0;
@@ -61,7 +62,7 @@ header h1{
 
 .countdown-container{
     width: 600px;
-    height: 50%;
+    height: 52%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -76,9 +77,9 @@ header h1{
 
 .background-text{
     position: absolute;
-    width: 596px;
+    width: 594px;
     height: 283px;
-    padding: 20px;
+
 }
 
 .background-text  .pass{

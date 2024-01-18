@@ -13,7 +13,7 @@ const reset = document.getElementById('reset')
 const exampleTexts = [
     {
         id: 1,
-        content: "Hola soy un texto que va a aparecer en la parte trasera del textarea y soy el que se va a ir pintando a medida que el usuario vaya tipeando en su teclado"
+        content: "Tu historia podrá no tener un principio muy feliz pero eso no te convierte en quién eres, sino el resto de tu historia, quién tu decidas ser. Entonces, ¿Quién eres?"
     },
 ]
 
@@ -21,7 +21,7 @@ let timeOut = false
 let timeoutExecuted = true;
 
 function insertText() {
-    const timeCountdownText = document.createTextNode(35)
+    const timeCountdownText = document.createTextNode(40)
     timeCountdown.appendChild(timeCountdownText)
     countdown.appendChild(timeCountdown)
 
@@ -39,7 +39,7 @@ function timeExpired() {
 
 function timer() {
 
-    let time = 35
+    let time = 40
     let idInterval;
     idInterval = setInterval(() => {
         while (timeCountdown.firstChild) {
@@ -91,7 +91,7 @@ function calculateWPM(textAreaValue, wordsInExample) {
         const accuracyText = document.createTextNode(`${accuracy.toFixed(2)}%`);
         accuracyPercentaje.appendChild(accuracyText);
 
-        const wordsPerMinute = (correctWords / (35 / 60)); // cálculo de WPM
+        const wordsPerMinute = (correctWords / (40 / 60)); // cálculo de WPM
         const wpmReachedText = document.createTextNode(wordsPerMinute.toFixed(2))
         wpmReached.appendChild(wpmReachedText)
     }
@@ -174,7 +174,7 @@ textArea.addEventListener("input", () => {
             timeOut = true;
             timeExpired();
 
-        }, 35000);
+        }, 40000);
     }
     textTyped();
     initTime = new Date();
